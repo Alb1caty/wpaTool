@@ -47,7 +47,7 @@ function StartAttack(){
 
 if [ "$(id -u)" == "0" ]; then
 
-	clear; echo -e "\n${yellowColour}[*]${endColour} For this program you need aircrack-ng packet, xter, wlan0 interface and wparockyou wordlist"
+	clear; echo -e "\n${yellowColour}[*]${endColour} For this program you need aircrack-ng packet, xterm, wlan0 interface and wparockyou wordlist"
 	sleep 5
 
 	StartAttack
